@@ -16,7 +16,7 @@ You may also see any lint errors in the console.
 
 ## Screenshot
 
-![]()
+![screenshot](https://github.com/saramazal/mazal-web-dev-road-map/blob/main/mazal-road-map.png)
 
 ### Deployment
 
