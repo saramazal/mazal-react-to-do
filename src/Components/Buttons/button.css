@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=Montserrat:wght@500&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap");
+
+:root {
+    --firstcolor: #00ADB5;
+    --secondcolor: #00ffff;
+    --thirdcolor: #EEEEEE;
+    --fourthcolor: #1f2437;
+    --pink: #f12b68;
+}
+
+
+button {
+    font-family: "Space Mono", monospace;
+    background: var(--fourthcolor);
+    font-size: 1em;
+    transition: transform 0.7s ease-in-out;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    padding: 7px 43px;
+    color: var(--secondcolor);
+    margin:  12px 0 10px 40px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.new {
+    background-color: var(--pink);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 24px;
+    color: var(--thirdcolor);
+}

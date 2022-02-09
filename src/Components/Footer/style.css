@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=Montserrat:wght@500&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap");
+
+:root {
+--firstcolor: #00ADB5;
+--secondcolor: #00ffff;
+--thirdcolor: #EEEEEE;
+--fourthcolor: #1f2437;
+}
+
+footer {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #222831;
+}
+
+   a {
+        font-family: "Space Mono", monospace;
+        color: var(--thirdcolor);
+        font-size: 1rem;
+        transition: transform 0.7s ease-in-out;
+        padding-left: 40px;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: var(--secondcolor);
+        transform: scale(1.05);
+      }

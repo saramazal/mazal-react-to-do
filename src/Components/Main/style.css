@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=Montserrat:wght@500&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap");
+
+:root {
+    --firstcolor: #00ADB5;
+    --secondcolor: #00ffff;
+    --thirdcolor: #EEEEEE;
+    --fourthcolor: #1f2437;
+}
+
+.main {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--thirdcolor);
+    color: var(--fourthcolor);
+}
+
+input[type="text"] {
+    font-family: "Space Mono", monospace;
+    font-size: 1.3em;
+    color: var(--fourthcolor);
+    padding: 7px 12px;
+    border-radius: 5px;
+    border: none;
+    width: 360px;
+    margin: 40px;
+}
+
+
