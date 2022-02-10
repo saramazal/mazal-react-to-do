@@ -8,12 +8,13 @@
 }
 
 footer {
-  height: 120px;
+  height: 20vh;
   width: 100%;
   display: flex;
   align-items: center;
   margin: 0 auto;
   background-color: #222831;
+  
 }
 
    a {

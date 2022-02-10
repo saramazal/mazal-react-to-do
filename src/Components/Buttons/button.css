@@ -16,10 +16,10 @@ button {
     transition: transform 0.7s ease-in-out;
     border: none;
     border-radius: 3px;
-    width: 200px;
-    padding: 7px 43px;
+    width: 150px;
+    padding: 5px 23px;
     color: var(--secondcolor);
-    margin:  12px 0 10px 40px;
+    margin:  10px 0 10px 40px;
 }
 
 button:hover {
@@ -30,6 +30,5 @@ button:hover {
     background-color: var(--pink);
     border: none;
     border-radius: 3px;
-    padding: 5px 24px;
     color: var(--thirdcolor);
 }

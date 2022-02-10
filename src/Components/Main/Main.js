@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
-import '../Buttons/button.css'
+import '../Buttons/button.css';
 
 class Main extends Component {
 	constructor(props) {
@@ -42,29 +42,34 @@ class Main extends Component {
 	}
 	render() {
 		return (
-			<div class="main">
-				<input
-					type="text"
-					placeholder="My next goal..."
-					value={this.state.newItem}
-					onChange={(e) => this.updateInput('newItem', e.target.value)}
-				/>
+			<div className="main">
+				<div>
+					<input
+						type="text"
+						placeholder="My next goal..."
+						value={this.state.newItem}
+						onChange={(e) => this.updateInput('newItem', e.target.value)}
+					/>
+					<button onClick={() => this.addItem()}>Add Goal</button>
+				</div>
 
-				<button onClick={() => this.addItem()}>Next Goal</button>
-				<ul>
-					{' '}
-					{this.state.list.map((item) => {
-						return (
-							<li key={item.id}>
-								{' '}
-								{item.value}
-								<button className="new" onClick={() => this.deleteItem(item.id)}>
-									Well done
-								</button>
-							</li>
-						);
-					})}
-				</ul>
+				<div className="goals-form">
+					<ol>
+						{' '}
+						{this.state.list.map((item) => {
+							return (
+								<li className="goals-list" key={item.id}>
+									{' '}
+									<span style={{ paddingRight: '20px' }}>{item.value}</span>
+									
+									<button className="new" onClick={() => this.deleteItem(item.id)}>
+										Well Done
+									</button>
+								</li>
+							);
+						})}
+					</ol>
+				</div>
 			</div>
 		);
 	}
