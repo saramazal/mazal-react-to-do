@@ -1,7 +1,7 @@
 # mazal-react-to-do
 ## Screenshot
 
-![screenshot]()
+![screenshot](https://github.com/saramazal/mazal-react-to-do/blob/main/todo-List.png)
 
 ### Deployment
 
