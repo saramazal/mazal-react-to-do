@@ -5,5 +5,5 @@
 
 ### Deployment
 
-[Demo](https://mazal-road-map-react-app.netlify.app)
+[Demo](https://mazal-road-map-react-app.netlify.app/)
 
